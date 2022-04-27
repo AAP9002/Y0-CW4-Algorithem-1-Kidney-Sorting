@@ -16,11 +16,10 @@ for (int x = 0; x < Pairs.GetLength(0); x++)
 
             for (int z = 0; z < Pairs.GetLength(0); z++)
             {
-                count = count + 2;
+                count = count + 4;
                 string[] Pair3 = new string[] { Pairs[z, 0], Pairs[z, 1] };
                 if (Pair3[0] != Pair1[0] && Pair3[1] != Pair1[1])
                 {
-                    count = count + 2;
                     if (Pair3[0] != Pair2[0] && Pair3[1] != Pair2[1])
                     {
                         bool found = false;
